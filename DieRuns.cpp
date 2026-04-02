@@ -3,6 +3,9 @@
 #include <ctime>
 using namespace std;
 
+void displayRun(int values[], int size);
+bool hasRun(int values[], int size);
+
 bool hasRun(int values[], int size) {
     for (int i = 0; i < size - 1; i++) {
         if (values[i] == values[i + 1])
